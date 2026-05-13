@@ -1,0 +1,28 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Banco e logs locais gerados em testes
+rfid_access.db
+rfid_access_log.csv
+rfid_cache.json
+rfid_reader_backup.csv
+
+# Arquivos locais de ambiente
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
